@@ -1,0 +1,186 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+  #main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -2;
+    position: relative;
+  }
+  #main nav{
+    height: 14vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    height: 100%;
+    width: 20vw;
+    margin: 0 5vw;
+    background-color: #000;
+  }
+  .main-1{
+    display: flex;
+  }
+  .main-1 h3{
+    text-transform: uppercase;
+    padding: 0 1.8vw;
+    font-size: 1.2vw;
+    color: white;
+  }
+  .main-2{
+    margin-right: 3.5vw;
+  }
+  .main-2 button{
+    text-transform: uppercase;
+    padding: 2vh 1.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+     margin-right: 2vw;
+  }
+   .first-btn{
+    background-color: #000;
+    color: white;
+    border: none;
+
+   }
+   #main h1{
+     letter-spacing: .5vw;
+    color: white;
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 6vh;
+    z-index: 6;
+   }
+   h1 span{
+    letter-spacing: 0.05vw;
+    font-size: 1.5vw;
+    background-color: brown;
+    padding: 3vh 1.8vw;
+    border-radius:5vw;
+    margin-right: 1.3vw;
+     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -1.7vw;
+     
+     
+   }
+   .first-img{
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    height: 40vh;
+    width: 13vw;
+    border-radius: 20px;
+   }
+   .sec-img{
+    position: absolute;
+    bottom: 16vh;
+    right: 10vw;
+    height: 40vh;
+    width: 12vw;
+    border-radius: 20px;
+   }
+   .third-img{
+    position: absolute;
+    bottom: 15vh;
+    left: 30vw;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+    z-index: -1;
+   }
+   h5{
+    color: white;
+    position: absolute;
+    bottom: 5vh;
+    left: 40vw;
+    font-size: 2.5vw;
+   }
+   @media (max-width:500px) {
+    #main>img{
+      height: 25vh;
+      width: 30vw;
+    }
+    #main h1{
+      letter-spacing:3px;
+     font-size:30px;
+     line-height: 40px;
+     margin-top: 20px;
+      text-align: end;
+      margin-right: 20px;
+       
+    }
+    h1 span{
+      padding:1vh 2vw;
+    }
+    #main{
+      position: relative;
+      z-index:-1 ;
+    }
+    .first-img{
+      z-index: -2;
+
+    
+   }
+   .sec-img{
+    position: absolute;
+    bottom: 30vh;
+   }
+   .third-img{
+    position: absolute;
+    left: 20vw;
+   }
+   nav img{
+    height: 8vh;
+    width:25vw ;
+   }
+   .main-1 >h3{
+    opacity: 0;
+   }
+   .main-1 .first-h1{
+     opacity: 1;
+     position: relative;
+     left: 67px;
+     font-size: 6px;
+   }
+   .main-2{
+    display: flex;
+    justify-content: space-between;
+     
+   }
+   .main-2 button{
+    padding: 0.6vh 1.4vw;
+    font-size: 6px; 
+
+    
+   }
+   .first-btn{
+    position: relative;
+    right: 10px;
+     padding: 0 0px;
+     
+     
+     
+ 
+   }
+  }
+  @media(max-width:800px)and(min-width:510px){
+    #main>img{
+      height:20vh;
+      width: 30vw;
+    }
+    .main-1 span{
+      padding: 2vh 1vw;
+      background-color: blue;
+    }
+     
+  }
+   
+    
